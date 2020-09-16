@@ -1,0 +1,36 @@
+#logo {
+  font-family: 'Emilys Candy', cursive;
+  color: #f1f3de;
+  font-size: 5em;
+  font-weight: 900;
+}
+
+#kittyluv-navbar {
+  background-color: #cd0a0a;
+}
+
+.kittyluv-navbar-links {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #f1f3de;
+  font-size: 2em;
+}
+
+.kitty-header {
+  color: #ffbb91;
+  background-color: #cd0a0a;
+  font-family: 'Raleway', sans-serif;
+}
+
+.kitty-header h1 {
+  font-weight: 900;
+  font-size: 4em;
+  padding: 80px;
+}
+
+#header-image {
+}
+
+.fa-cat {
+  margin-left: 10px;
+}
