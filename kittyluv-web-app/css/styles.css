@@ -15,21 +15,21 @@ body {
 }
 
 #kittyluv-navbar {
-  background-color: #cd0a0a;
+  background-color: #8f1537;
   padding-left: 100px;
 }
 
 .kittyluv-navbar-links {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  color: #f1f3de;
+  color: #ffaaaa;
   font-size: 2em;
   margin: 30px;
 }
 
 .kitty-header {
-  color: #ffbb91;
-  background-color: #cd0a0a;
+  color: #ffaaaa;
+  background-color: #8f1537;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -58,4 +58,33 @@ body {
 #header-image {
   transform: rotate(25deg);
   overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+#describe-section {
+  text-align: center;
+}
+
+.describe-container {
+  margin-top: 50px;
+  padding-top: 5%;
+}
+
+.describe-icons {
+  color: #c7004c;
+}
+
+.describe-text-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 5%;
+}
+
+.describe-text-paragraph {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 30px;
 }
