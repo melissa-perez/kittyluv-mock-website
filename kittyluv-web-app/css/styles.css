@@ -1,3 +1,12 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 #logo {
   font-family: 'Emilys Candy', cursive;
   color: #f1f3de;
@@ -7,6 +16,7 @@
 
 #kittyluv-navbar {
   background-color: #cd0a0a;
+  padding-left: 100px;
 }
 
 .kittyluv-navbar-links {
@@ -14,6 +24,7 @@
   font-weight: 700;
   color: #f1f3de;
   font-size: 2em;
+  margin: 30px;
 }
 
 .kitty-header {
@@ -25,19 +36,26 @@
 .kitty-header h1 {
   font-weight: 900;
   font-size: 4em;
-  padding: 80px;
-}
-
-#header-image {
+  padding: 100px 0 50px 100px;
 }
 
 .fa-cat {
   margin-left: 10px;
 }
-<<<<<<< HEAD
+
+.buttons {
+  margin: 1%;
+}
+
+.icon-text {
+  padding-left: 10px;
+}
 
 #button-row {
-  text-align: center;
+  padding-left: 100px;
 }
-=======
->>>>>>> 588e3663efeaf4a225089c677063c0c0c74fec88
+
+#header-image {
+  transform: rotate(25deg);
+  overflow: hidden;
+}

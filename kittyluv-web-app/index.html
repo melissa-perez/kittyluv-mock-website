@@ -17,63 +17,102 @@
   </head>
 
   <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark" id="kittyluv-navbar">
-      <a class="navbar-brand" id="logo" href="index.html"
-        >kittyluv<i class="fas fa-cat"></i
-      ></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarToggler"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <header>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark" id="kittyluv-navbar">
+        <a class="navbar-brand" id="logo" href="index.html"
+          >kittyluv<i class="fas fa-cat"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-auto">
+              <a class="nav-link kittyluv-navbar-links" id="" href=""
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link kittyluv-navbar-links" id="" href=""
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link kittyluv-navbar-links" id="" href=""
+                >Download</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-      <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ml-auto">
-            <a class="nav-link kittyluv-navbar-links" id="" href="">Contact</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link kittyluv-navbar-links" id="" href="">Pricing</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link kittyluv-navbar-links" id="" href="">Download</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!--Header-->
-    <div class="container-fluid kitty-header">
-      <div class="row">
-<<<<<<< HEAD
-        <!--Header text-->
-        <div class="container col-lg-6">
-          <h1>Meet nearby cool cats while making lasting relationships.</h1>
-          <!--Button row-->
-          <div class="container" id="button-row">
-            <button type="button" class="btn btn-dark">
-              <i class="fab fa-google-play"></i><span>Download</span>
-            </button>
-            <button type="button" class="btn btn-light">
-              <i class="fab fa-google-play"></i><span>Download</span>
-            </button>
+    <section>
+      <div class="container-fluid">
+        <!--Header-->
+        <div class="row kitty-header">
+          <div class="col-lg-6 col-md-12" id="header-text-button">
+            <h1>Meet nearby cool cats while making lasting relationships.</h1>
+            <div id="button-row">
+              <button
+                type="button"
+                class="btn btn-lg btn-outline-light buttons"
+              >
+                <i class="fab fa-apple"></i
+                ><span class="icon-text">Download</span>
+              </button>
+              <button type="button" class="btn btn-dark btn-lg buttons">
+                <i class="fab fa-google-play"></i
+                ><span class="icon-text">Download</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              id="header-image"
+              src="assets/images/iphone-mockup.png"
+              align="left"
+              alt="cat in iphone"
+            />
           </div>
         </div>
-        <!--Header image-->
-=======
-        <div class="container col-lg-6">
-          <h1>Meet nearby cool cats while making lasting relationships.</h1>
-        </div>
->>>>>>> 588e3663efeaf4a225089c677063c0c0c74fec88
-        <div class="container col-lg-6" id="header-image">
-          <img src="assets/images/iphone-mockup.png" />
+      </div>
+    </section>
+
+    <!--Describe section-->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <i class="fas fa-check-double"></i>
+            <h3>Easy to use.</h3>
+            <p>
+              Download and start using with our free trial. It's that simple.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-bullseye"></i>
+            <h3>Large community of users.</h3>
+            <p>
+              With over 1,000,000 users and counting, there is bound to be a
+              match.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="far fa-heart"></i>
+            <h3>Find love.</h3>
+            <p>Don't we all deserve some love?</p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
     <!--Bootstrap Scripts-->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
