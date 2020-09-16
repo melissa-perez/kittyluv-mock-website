@@ -12,11 +12,15 @@ body {
   color: #f1f3de;
   font-size: 5em;
   font-weight: 900;
+  margin: 10px;
+}
+
+nav .navbar-nav li a {
+  color: #f1f3de !important;
 }
 
 #kittyluv-navbar {
   background-color: #8f1537;
-  padding-left: 100px;
 }
 
 .kittyluv-navbar-links {
@@ -24,7 +28,7 @@ body {
   font-weight: 700;
   color: #ffaaaa;
   font-size: 2em;
-  margin: 30px;
+  margin: 20px;
 }
 
 .kitty-header {
@@ -52,7 +56,9 @@ body {
 }
 
 #button-row {
+  padding-top: 30px;
   padding-left: 100px;
+  padding-bottom: 60px;
 }
 
 #header-image {
@@ -75,16 +81,21 @@ body {
   color: #c7004c;
 }
 
+.describe-icons:hover {
+  color: #ffaaaa;
+}
+
 .describe-text-header {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
+  font-weight: 600;
+  font-size: 2.5rem;
   margin-top: 5%;
 }
 
 .describe-text-paragraph {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 30px;
+  padding: 20px;
 }
