@@ -13,6 +13,7 @@ body {
   font-size: 5em;
   font-weight: 900;
   margin: 10px;
+  padding-left: 90px;
 }
 
 nav .navbar-nav li a {
@@ -98,4 +99,40 @@ nav .navbar-nav li a {
   font-size: 1.5rem;
   margin-top: 30px;
   padding: 20px;
+}
+
+#testimonials-section {
+  color: #ffaaaa;
+  background-color: #8f1537;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.testimonials-header {
+  font-size: 3em;
+  font-weight: 700;
+  padding: 10% 6% 10%;
+}
+
+.testimonials-name {
+  font-size: 1em;
+  margin-left: 4%;
+  font-style: italic;
+  font-weight: 700;
+  padding-top: 10%;
+}
+
+.testimonials-photo {
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.testimonials-news-logos {
+  margin-top: 10px;
+  height: 100px;
+}
+
+#logo-row {
+  margin: 7% 5%;
+  padding-bottom: 3%;
 }
