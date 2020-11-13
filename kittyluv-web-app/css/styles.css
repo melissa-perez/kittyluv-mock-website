@@ -13,7 +13,7 @@ body {
   font-size: 5em;
   font-weight: 900;
   margin: 10px;
-  padding-left: 90px;
+  padding-left: 20px;
 }
 
 nav .navbar-nav li a {
@@ -29,7 +29,7 @@ nav .navbar-nav li a {
   font-weight: 700;
   color: #ffaaaa;
   font-size: 2em;
-  margin: 20px;
+  margin: 15px;
 }
 
 .kitty-header {
@@ -41,7 +41,7 @@ nav .navbar-nav li a {
 .kitty-header h1 {
   font-weight: 900;
   font-size: 4em;
-  padding: 100px 0 50px 100px;
+  padding: 4%;
 }
 
 .fa-cat {
@@ -58,7 +58,7 @@ nav .navbar-nav li a {
 
 #button-row {
   padding-top: 30px;
-  padding-left: 100px;
+  padding-left: 30px;
   padding-bottom: 60px;
 }
 
@@ -67,15 +67,20 @@ nav .navbar-nav li a {
   overflow: hidden;
   max-width: 100%;
   height: auto;
+  position: absolute;
 }
 
 #describe-section {
   text-align: center;
+  background-color: white;
+  z-index: 1;
+  position: relative;
 }
 
 .describe-container {
   margin-top: 50px;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .describe-icons {
@@ -135,4 +140,17 @@ nav .navbar-nav li a {
 #logo-row {
   margin: 7% 5%;
   padding-bottom: 3%;
+}
+
+
+@media (max-width: 1028px){
+  #header-image{
+    position: static;
+    transform: rotate(0);
+    padding-left: 30px;
+  }
+
+  #title{
+    text-align: center;
+  }
 }
