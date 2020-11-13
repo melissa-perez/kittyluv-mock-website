@@ -66,7 +66,6 @@ nav .navbar-nav li a {
   transform: rotate(25deg);
   overflow: hidden;
   max-width: 100%;
-  height: auto;
   position: absolute;
 }
 
@@ -75,6 +74,7 @@ nav .navbar-nav li a {
   background-color: white;
   z-index: 1;
   position: relative;
+  padding: 5%;
 }
 
 .describe-container {
@@ -107,41 +107,43 @@ nav .navbar-nav li a {
 }
 
 #testimonials-section {
-  color: #ffaaaa;
-  background-color: #8f1537;
+  color: #c7004c;
+  background-color: #ffaaaa;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  padding: 7% 15%;
 }
 
 .testimonials-header {
   font-size: 3em;
   font-weight: 700;
-  padding: 10% 6% 10%;
-}
-
-.testimonials-name {
-  font-size: 1em;
-  margin-left: 4%;
-  font-style: italic;
-  font-weight: 700;
-  padding-top: 10%;
-}
-
-.testimonials-photo {
-  margin: 0 auto;
   border-radius: 100%;
 }
 
-.testimonials-news-logos {
-  margin-top: 10px;
-  height: 100px;
+.testimonials-name {
+  font-style: italic;
 }
 
-#logo-row {
-  margin: 7% 5%;
+.testimonials-photo {
+  width: 25%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press-section{
   padding-bottom: 3%;
+  text-align: center;
+  background-color: #ffaaaa;
 }
 
+.testimonials-news-logos {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
 
 @media (max-width: 1028px){
   #header-image{
@@ -152,5 +154,9 @@ nav .navbar-nav li a {
 
   #title{
     text-align: center;
+  }
+
+  .testimonials-photo {
+    float:left;
   }
 }

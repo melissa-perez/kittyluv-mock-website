@@ -58,7 +58,7 @@
   <section id="title">
     <div class="container-fluid">
       <div class="row kitty-header">
-        <div class="col-lg-6 col-md-12" id="header-text-button">
+        <div class="col-lg-6 col-md-6" id="header-text-button">
           <h1>Meet nearby cool cats while making lasting relationships.</h1>
           <div id="button-row">
             <button
@@ -74,7 +74,7 @@
             </button>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-6 col-sm-12">
           <img
             id="header-image"
             src="assets/images/iphone-mockup.png"
@@ -117,34 +117,45 @@
   </section>
 
   <!-- Testimonial Section-->
-  <div>
-    <div id="testimonials-section">
-      <div class="row">
-        <h2 class="testimonials-header col-lg-12 col-sm-12">I couldn't believe all the hotties on kittyluv. Meow!!</h2>
-      <img src="assets/images/cat-testimonial.jpg" class="col-sm-12 col-lg-3 testimonials-photo" />
-        <span class="testimonials-name col-sm-12 col-lg-4">Chester, Boston</span>
-      </div>
-      <div class="row" id="logo-row">
-          <div class="col-lg-3 testimonials-news-logos">
-              <img src="assets/images/bizinsider.png" />
-            </div>
-            <div class="col-lg-3 testimonials-news-logos">
-              <img src="assets/images/mashable.png" />
-            </div>
-            <div class="col-lg-3 testimonials-news-logos">
-              <img src="assets/images/TechCrunch.png" />
-            </div>
-            <div class="col-lg-3">
-              <img src="assets/images/tnw.png"  class="testimonials-news-logos" />
-            </div>
-          </div>
+  
+    <div id="pressCarousel" class="carousel slide" data-ride="carousel">
+      <section id="testimonials-section">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonials-header">I couldn't believe all the hotties on kittyluv. Meow!!</h2>
+          <img src="assets/images/cat-testimonial.jpg" class="testimonials-photo" alt="Pet Chester photo"/>
+          <span class="testimonials-name">&mdash; Chester, Boston</span>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonials-header">We were so happy to have found a partner for Mittens.</h2>
+          <img src="assets/images/cat-couple-testimony.jpg" class="testimonials-photo" alt="Cat Couple Photo"/>
+          <span class="testimonials-name">&mdash; Steve and Marcia, New York</span>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonials-header">I finally have the house and owner to myself. kittyluv works.</h2>
+          <img src="assets/images/happy-dog-testimony.jpg" class="testimonials-photo" alt="Happy Corgi dog Photo"/>
+          <span class="testimonials-name">&mdash; Bork, Dallas</span>
         </div>
       </div>
-
+      <a class="carousel-control-prev" href="#pressCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#pressCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </section>
 
 
-
+  <!--Press Section-->
+  <section id="press-section">
+      <img src="assets/images/bizinsider.png" class="testimonials-news-logos" alt="Business Insider logo"/>
+      <img src="assets/images/mashable.png" class="testimonials-news-logos" alt="Mashable logo"/>
+      <img src="assets/images/TechCrunch.png" class="testimonials-news-logos" alt="TechCrunch logo"/>
+      <img src="assets/images/tnw.png" class="testimonials-news-logos" alt="TNW logo"/>
+  </section>
 
 
 
