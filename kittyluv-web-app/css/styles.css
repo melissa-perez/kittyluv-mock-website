@@ -167,6 +167,32 @@ nav .navbar-nav li a {
   margin: 10px;
 }
 
+
+#download-section{
+  background-color: #8f1537;
+  padding: 7% 15%;
+}
+
+#download-section h2{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color:white;
+  padding: 5%;
+}
+
+
+#contact-section{
+  background-color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+#contact-section p span{
+  margin: 10px;
+}
+
 @media (max-width: 1028px){
   #header-image{
     position: static;
