@@ -145,6 +145,28 @@ nav .navbar-nav li a {
   padding: 7% 15%;
 }
 
+.pricing-header {
+  font-weight: 700;
+}
+
+.pricing-text {
+  font-style: bold;
+  font-size: 3em;
+}
+
+#pricing-section {
+  margin: 5%;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card{
+  margin: 10px;
+}
+
 @media (max-width: 1028px){
   #header-image{
     position: static;
