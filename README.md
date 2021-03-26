@@ -10,6 +10,8 @@ with easy to read font. There is no interactivity beyond the nav bar.
 
 <img src="kittyluv.gif" width=200><br>
 
+<img src="kittyluv2.gif" width=200><br>
+
 ## Required
 - [x] User can click on nav bar sections to navigate the page.
 - [x] Much of the website is responsive due to Bootstrap.
