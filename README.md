@@ -1,8 +1,8 @@
 # kittyluv
 
 ### App Description
-kittyluv is cat dating website mock-up. This website is for designing purposes and outlines a basic page flow. There is a navbar at top.
-A large hero image banner, a testimonials section, and a pricing section. The color scheme was also chosen by myself and stuck to "softer" red tones 
+kittyluv is cat dating website mock-up. This website is for designing purposes and outlines a basic page flow. There is a navbar at top,
+a hero image banner, a testimonials section, and a pricing section. The color scheme was also chosen by myself and I stuck to "softer" red tones 
 with easy to read font. There is no interactivity beyond the nav bar.
 
 
